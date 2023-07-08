@@ -1,0 +1,68 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  background: lavenderblush;
+}
+
+.main {
+  margin: 5rem;
+  padding: 1rem;
+  border: 1px black solid;
+  height: 50vh;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  background: lightcoral;
+  border: none;
+  border-radius: 10px;
+}
+
+button {
+  font-weight: bold;
+  padding: 0.5rem 0.8rem;
+  margin: 0.5rem;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+}
+
+p {
+  color: coral;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+#btn {
+  background: #333;
+  color: #000;
+}
+
+#second {
+  background: #fff;
+}
+
+@media only screen and (max-width: 768px) {
+  *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #333;
+    color: #fff;
+  }
+
+  .main {
+    margin: 5rem;
+    padding: 1rem;
+    border: 1px black solid;
+    height: 30vh;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background: salmon;
+    border: none;
+    border-radius: 10px;
+  }
+}
